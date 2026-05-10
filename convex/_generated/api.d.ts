@@ -13,14 +13,14 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
+import type * as adventureProgress from "../adventureProgress.js";
+import type * as foods from "../foods.js";
 import type * as http from "../http.js";
-import type * as leads from "../leads.js";
+import type * as inspiration from "../inspiration.js";
+import type * as meals from "../meals.js";
 import type * as openai from "../openai.js";
-import type * as resend from "../resend.js";
-import type * as telegram from "../telegram.js";
-import type * as telegramClient from "../telegramClient.js";
+import type * as ratings from "../ratings.js";
 import type * as tracking from "../tracking.js";
-import type * as votes from "../votes.js";
 
 /**
  * A utility for referencing Convex functions in your app's API.
@@ -31,14 +31,14 @@ import type * as votes from "../votes.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
+  adventureProgress: typeof adventureProgress;
+  foods: typeof foods;
   http: typeof http;
-  leads: typeof leads;
+  inspiration: typeof inspiration;
+  meals: typeof meals;
   openai: typeof openai;
-  resend: typeof resend;
-  telegram: typeof telegram;
-  telegramClient: typeof telegramClient;
+  ratings: typeof ratings;
   tracking: typeof tracking;
-  votes: typeof votes;
 }>;
 export declare const api: FilterApi<
   typeof fullApi,
