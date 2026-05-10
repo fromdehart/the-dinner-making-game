@@ -80,3 +80,9 @@ Speaker 1
 Ten to one hundred. What is that? 
 Speaker 2
 
+
+## User Feedback (Sat May  9 09:34:24 PM EDT 2026)
+Proportional rectangles, the scale should go in increments of 10 and it should be picking stars not a slider, maybe 20 per group, adventure list should be standard foods. They don’t have to be like unique. It’s just what we’re trying to check off the general things. The general basis that kids should be trying so you know check in fish like different veggies, different fruits stuff like that. We also need to think about how to make the foods visual and and have something that fills the plate back up after they they pick it so also we can use GPT5 mini you may not know it exists, but it does. gpt-5-mini
+
+## User Feedback (Sat May  9 09:38:25 PM EDT 2026)
+Shouldn’t check off the adventure foods until the rating part and they should have to manually check off what they actually ate.
